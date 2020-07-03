@@ -8,7 +8,7 @@ import express from 'express'
 import { buildSchema } from "type-graphql";
 import { UserResolver } from "./UserResolver";
 import { createConnection } from "typeorm";
-// 15:30
+// 1:03:28
 
 (async () => {
     await createConnection();
